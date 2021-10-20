@@ -3,8 +3,5 @@
     "ext": "ts",
     "execMap":{
         "ts":"ts-node src/index.ts"
-    },
-    "scripts": {
-    "dev": "nodemon src/index.ts"
     }
-}
+ }

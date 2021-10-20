@@ -1,10 +1,10 @@
-import {getRepository} from "typeorm";
+/*import {getRepository} from "typeorm";
 import {NextFunction, Request, Response} from "express";
-import {User} from "../entity/User";
+import {Tasks} from "../entity/tasks";
 
 export class UserController {
 
-    private userRepository = getRepository(User);
+    private userRepository = getRepository(tasks);
 
     async all(request: Request, response: Response, next: NextFunction) {
         return this.userRepository.find();
@@ -23,4 +23,4 @@ export class UserController {
         await this.userRepository.remove(userToRemove);
     }
 
-}
+}*/
